@@ -7,16 +7,56 @@
 /* light background #E5E5E5 */
 /* dark background #2F303A */
 /* white background #FFFFFF */
-
-.page-body {
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+}
+body {
   background-color: #fff;
-  color: #757575;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
 }
 
 .logo {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .logo-accent {
-  color: #2196f3;
+  color: var(--accent-color);
 }
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.head-contacts .link {
+  color: var(--title-text-color);
+}
+
+.head-contacts .link:hover,
+.head-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero-title {
+  color: #FFFFFF;
+}
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+/* features */
+.feature-list .title {
+  color: var(--title-text-color);
+  }
