@@ -1,0 +1,22 @@
+/* title-main #212121 */
+/* main #757575
+*/
+/* wthite accent #FFFFFF */
+/* accent #2196F3 */
+
+/* light background #E5E5E5 */
+/* dark background #2F303A */
+/* white background #FFFFFF */
+
+.page-body {
+  background-color: #fff;
+  color: #757575;
+}
+
+.logo {
+  color: #212121;
+}
+
+.logo-accent {
+  color: #2196f3;
+}
