@@ -11,9 +11,10 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196F3;
+  --primary-white-color: #fff;
 }
 body {
-  background-color: #fff;
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 
@@ -38,6 +39,9 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current{
+  color: var(--accent-color);
+}
 
 .head-contacts .link {
   color: var(--title-text-color);
@@ -50,7 +54,7 @@ body {
 
 /* hero */
 .hero-title {
-  color: #FFFFFF;
+  color: var(--primary-white-color);
 }
 /* section */
 .section-title {
@@ -60,3 +64,12 @@ body {
 .feature-list .title {
   color: var(--title-text-color);
   }
+
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
