@@ -33,10 +33,12 @@ body {
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.4;
  
 }
-
+.footer .logo {
+  color: var(--primary-white-color);
+}
 .logo-accent {
   color: var(--accent-color);
 }
@@ -141,3 +143,21 @@ body {
   letter-spacing: 0.06em;
 }
 
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+.contacts {
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  color: var(--primary-text-color);
+  text-decoration: none;
+
+}
+.footer {
+  background-color: var(--title-text-color)
+}
