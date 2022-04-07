@@ -88,6 +88,7 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+
 /* section */
 .section-title {
   color: var(--title-text-color);
@@ -125,13 +126,22 @@ body {
 
 /* button */
 .button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bgd-color);
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
 
-}
+  cursor: pointer;
 
+}
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -141,8 +151,25 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 
+/* portfolio main */
+.cases-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.cases-text {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+}
 .address {
   font-style: normal;
   font-size: 14px;
@@ -156,8 +183,13 @@ body {
   font-style: normal;
   color: var(--primary-text-color);
   text-decoration: none;
-
 }
+  
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+
 .footer {
   background-color: var(--title-text-color)
 }
